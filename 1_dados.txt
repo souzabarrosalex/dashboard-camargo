@@ -1,0 +1,27 @@
+import streamlit as st
+import pandas as pd
+
+def executar_tarefa():
+
+    st.set_page_config(
+            page_title="CAMARGO",
+            page_icon="",
+                            )
+    imagem = 'logo_camargo.png'  # Substitua pelo caminho da sua imagem
+    st.image(imagem)
+
+    st.write("# BEM VINDO AO DASHBOARD DA CAMARGO ADVOGADOS")
+    st.markdown(
+        """
+        ### PRODUÇÃO DO DIA    
+        """
+                    )
+    caminho = 'producao_dia.csv'
+    df = pd.read_csv(
+            caminho,
+            sep=';',
+            encoding='ISO-8859-1'
+        )
+    st.dataframe(df)
+
+executar_tarefa()
