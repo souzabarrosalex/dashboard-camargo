@@ -10,12 +10,10 @@ def executar_tarefa():
     st.image(logo)
     st.markdown(
         """
-        ### PRODUÇÃO DO DIA
+        ### INDICE DE QUEBRA POR OPERADOR
         """
                     )
-    resultado_dia = 'x_00_home.png'  # Substitua pelo caminho da sua imagem
+    resultado_dia = 'x_08_percentual_quebra_operador.png'  # Substitua pelo caminho da sua imagem
     st.image(resultado_dia)  
-
-executar_tarefa()
 
 executar_tarefa()

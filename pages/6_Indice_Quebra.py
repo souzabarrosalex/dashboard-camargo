@@ -6,14 +6,14 @@ def executar_tarefa():
             page_icon="",
             layout='wide'
                             )
-    logo = 'logo_camargo.png'  # Substitua pelo caminho da sua imagem
+    logo = 'x_99_logo_camargo.png'  # Substitua pelo caminho da sua imagem
     st.image(logo)
     st.markdown(
         """
-        ### RECUPERADO FASE 1  
+        ### INDICE DE QUEBRA 
         """
                     )
-    recuperado_meta_fase_1 = '7_recuperado_meta_fase_1.png'  # Substitua pelo caminho da sua imagem
-    st.image(recuperado_meta_fase_1)    
+    resultado_dia = 'x_07_percentual_pago_quebra.png'  # Substitua pelo caminho da sua imagem
+    st.image(resultado_dia)  
 
 executar_tarefa()

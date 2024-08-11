@@ -6,14 +6,14 @@ def executar_tarefa():
             page_icon="",
             layout='wide'
                             )
-    logo = 'logo_camargo.png'  # Substitua pelo caminho da sua imagem
+    logo = 'x_99_logo_camargo.png'  # Substitua pelo caminho da sua imagem
     st.image(logo)
     st.markdown(
         """
-        ### RANK DO DIA  
+        ### STATUS BOLETOS DIA A DIA 
         """
                     )
-    rank_do_dia = '2_rank_do_dia.jpeg'  # Substitua pelo caminho da sua imagem
-    st.image(rank_do_dia)    
+    resultado_dia = 'x_06_Vencimento Por Dia.png'  # Substitua pelo caminho da sua imagem
+    st.image(resultado_dia)  
 
 executar_tarefa()

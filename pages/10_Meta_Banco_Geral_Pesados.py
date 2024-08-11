@@ -10,12 +10,10 @@ def executar_tarefa():
     st.image(logo)
     st.markdown(
         """
-        ### PRODUÇÃO DO DIA
+        ### META BANCO GERAL PESADOS
         """
                     )
-    resultado_dia = 'x_00_home.png'  # Substitua pelo caminho da sua imagem
+    resultado_dia = 'x_11_meta_banco_geral_pesados.png'  # Substitua pelo caminho da sua imagem
     st.image(resultado_dia)  
-
-executar_tarefa()
 
 executar_tarefa()

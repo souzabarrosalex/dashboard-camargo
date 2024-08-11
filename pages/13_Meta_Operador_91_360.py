@@ -6,14 +6,14 @@ def executar_tarefa():
             page_icon="",
             layout='wide'
                             )
-    logo = 'logo_camargo.png'  # Substitua pelo caminho da sua imagem
+    logo = 'x_99_logo_camargo.png'  # Substitua pelo caminho da sua imagem
     st.image(logo)
     st.markdown(
         """
-        ### NÃO ATUADOS DAYCOLLECTION  
+        ### META OPERADOR 91 A 360
         """
                     )
-    nao_atuados_daycollection = '10_nao_atuados_daycollection.png'  # Substitua pelo caminho da sua imagem
-    st.image(nao_atuados_daycollection)    
+    resultado_dia = 'x_14_meta_Operador_91_360.png'  # Substitua pelo caminho da sua imagem
+    st.image(resultado_dia)  
 
 executar_tarefa()
