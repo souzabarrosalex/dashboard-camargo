@@ -17,5 +17,3 @@ def executar_tarefa():
     st.image(resultado_dia)  
 
 executar_tarefa()
-
-executar_tarefa()
