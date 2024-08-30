@@ -1,5 +1,5 @@
 import streamlit as st
-def .venv/Scripts/Activate executar_tarefa():
+def .venv/Scripts/Activateexecutar_tarefa():
 
     st.set_page_config(
             page_title="CAMARGO",
