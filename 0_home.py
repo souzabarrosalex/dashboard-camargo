@@ -1,4 +1,4 @@
-import streamlit as st
+wimport streamlit as st
 def executar_tarefa():
 
     st.set_page_config(
